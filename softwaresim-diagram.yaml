@@ -1,0 +1,1272 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 625
+  horizontalOffset: 115
+  verticalOffset: -128
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 625
+connectors:
+  - id: Straight ConnectorBBGfC
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 286
+      y: -13
+    targetPoint:
+      x: 325
+      y: -13
+    sourceID: PDF FileX6pAp
+    targetID: Document AIa8Drs
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Straight ConnectorleDSp
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 667
+      y: -13
+    targetPoint:
+      x: 706
+      y: -13
+    sourceID: Document AIa8Drs
+    targetID: Parsed DatabSORN
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Dashed Orthogonal ConnectorgMX6v
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 756
+      y: 49
+    targetPoint:
+      x: 578
+      y: 77.5
+    sourceID: Parsed DatabSORN
+    targetID: Cloud StoragedT6wk
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Straight ConnectorNsxBQ
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 578
+      y: 177.5
+    targetPoint:
+      x: 578
+      y: 192.75
+    sourceID: Cloud StoragedT6wk
+    targetID: Cloud Data FusionJbVRZ
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Straight ConnectorN7vSE
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 391.5
+      y: 198.41
+    targetPoint:
+      x: 428
+      y: 207.09
+    sourceID: MongoDBG3UMe
+    targetID: Cloud Data FusionJbVRZ
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Dashed Straight ConnectorACD4e
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 496
+      y: -103.5
+    targetPoint:
+      x: 496
+      y: -63
+    sourceID: Document AIa8DrsfNBAH
+    targetID: Document AIa8Drs
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+  - id: Straight ConnectorCmMNl
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 286
+      y: -153.5
+    targetPoint:
+      x: 325
+      y: -153.5
+    sourceID: PDF FileX6pApn6Xny
+    targetID: Document AIa8DrsfNBAH
+    addInfo:
+      viewConnector: 0
+    zIndex: 15
+  - id: Straight ConnectoripfG4
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 663.89
+      y: 292.75
+    targetPoint:
+      x: 702.11
+      y: 315
+    sourceID: Cloud Data FusionJbVRZ
+    targetID: BigQueryyTJyg
+    addInfo:
+      viewConnector: 0
+    zIndex: 23
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #001E2B;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1693985511/sds_logos/MongoDB_Black_87_d4asbq.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1693985511/sds_logos/MongoDB_trc9ad.png);"></div><div
+        class="c-text"><div class="c-title">MongoDB</div><div
+        class="c-short-description">Schema-less, document-oriented, NoSQL
+        database system</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">MongoDB</div></div></div></div></div>'
+    id: MongoDBG3UMe
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: MongoDB
+        shortDescription: Schema-less, document-oriented, NoSQL database system
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: MongoDB
+      status: N/A
+      size: sm
+      nodeType: html
+      title: MongoDB
+      editableName: MongoDB
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: MongoDB
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1693985511/sds_logos/MongoDB_trc9ad.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1693985511/sds_logos/MongoDB__044448_mkrxsf.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1693985511/sds_logos/MongoDB_Black_87_d4asbq.png
+      color: "#001E2B"
+      controlText: MongoDB
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 241.5
+    offsetY: 162.75
+    zIndex: 0
+    outEdges:
+      - Straight ConnectorN7vSE
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_Black_87_dijqgu.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_dik8ue.png);"></div><div
+        class="c-text"><div class="c-title">Document AI Process</div><div
+        class="c-short-description">Extracting structured data and insights from
+        unstructured documents efficiently</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Document AIa8Drs
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Document AI
+        shortDescription: Extracting structured data and insights from unstructured
+          documents efficiently
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Document AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Document AI
+      editableName: Document AI Process
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Document AI
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_dik8ue.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai__044448_svofdf.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_Black_87_dijqgu.png
+      color: "#3871e0"
+      controlText: Document AI
+      selectedDynamicsView: 0
+    width: 341.99999999999994
+    height: 100
+    offsetX: 496
+    offsetY: -13
+    zIndex: 1
+    inEdges:
+      - Straight ConnectorBBGfC
+      - Dashed Straight ConnectorACD4e
+    outEdges:
+      - Straight ConnectorleDSp
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Full
+        Catalog PDF</div></div><hr class="c-underrule" style="background-color:
+        #4e3391"></div>'
+    id: PDF FileX6pAp
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PDF File
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PDF File
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PDF File
+      editableName: Full Catalog PDF
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: PDF File
+      category: 3
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF__044448_v2_supg5y.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png
+      color: "#4e3391"
+      controlText: PDF File
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 139
+    height: 124
+    offsetX: 216.5
+    offsetY: -13
+    zIndex: 2
+    outEdges:
+      - Straight ConnectorBBGfC
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_Black_87_v2_n1van9.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_v2_cjpqwt.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Parsed
+        Data</div></div><hr class="c-underrule" style="background-color:
+        #4e3391"></div>'
+    id: Parsed DatabSORN
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Parsed Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Parsed Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Parsed Data
+      editableName: Parsed Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Parsed Data
+      category: 3
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_v2_cjpqwt.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed__044448_v2_iiqqlx.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_Black_87_v2_n1van9.png
+      color: "#4e3391"
+      controlText: Parsed Data
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 756
+    offsetY: -13
+    zIndex: 4
+    inEdges:
+      - Straight ConnectorleDSp
+    outEdges:
+      - Dashed Orthogonal ConnectorgMX6v
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Storage</div><div
+        class="c-short-description">Storing and retrieving data globally in a
+        scalable and secure manner</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud StoragedT6wk
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Storage
+        shortDescription: Storing and retrieving data globally in a scalable and secure manner
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Storage
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Storage
+      editableName: Cloud Storage
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Object Storage
+          type: Storage
+          portsIn:
+            put: write
+            get: read
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Object Storage
+      name: Cloud Storage
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage__044448_vsadzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png
+      color: "#3871e0"
+      controlText: Cloud Storage
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 578
+    offsetY: 127.5
+    zIndex: 6
+    inEdges:
+      - Dashed Orthogonal ConnectorgMX6v
+    outEdges:
+      - Straight ConnectorNsxBQ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_data_fusion_Black_87_zdvacv.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_data_fusion_jaiwi2.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Data Fusion</div><div
+        class="c-short-description">Integrating, cleaning, and preparing data
+        from various sources for analytics and machine learning</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud Data FusionJbVRZ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Data Fusion
+        shortDescription: Integrating, cleaning, and preparing data from various sources
+          for analytics and machine learning
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Data Fusion
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Data Fusion
+      editableName: Cloud Data Fusion
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cloud Data Fusion
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_data_fusion_jaiwi2.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_data_fusion__044448_uh5yce.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_data_fusion_Black_87_zdvacv.png
+      color: "#3871e0"
+      controlText: Cloud Data Fusion
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 578
+    offsetY: 242.75
+    zIndex: 9
+    inEdges:
+      - Straight ConnectorNsxBQ
+      - Straight ConnectorN7vSE
+    outEdges:
+      - Straight ConnectoripfG4
+  - shape:
+      type: Path
+    id: TextC1Vws
+    width: 50
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: C8FwS
+        content: JSON Format
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+    offsetX: 834
+    offsetY: -50
+    zIndex: 11
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_Black_87_dijqgu.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_dik8ue.png);"></div><div
+        class="c-text"><div class="c-title">Document AI Workbench</div><div
+        class="c-short-description">Custom trained processor (no code) for
+        better identification of entities/tables</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Document AIa8DrsfNBAH
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Document AI
+        shortDescription: Custom trained processor (no code) for better identification
+          of entities/tables
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Document AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Document AI
+      editableName: Document AI Workbench
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Document AI
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_dik8ue.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai__044448_svofdf.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_Black_87_dijqgu.png
+      color: "#3871e0"
+      controlText: Document AI
+      selectedDynamicsView: 0
+    width: 341.99999999999994
+    height: 100
+    offsetX: 496
+    offsetY: -153.5
+    zIndex: 12
+    inEdges:
+      - Straight ConnectorCmMNl
+    outEdges:
+      - Dashed Straight ConnectorACD4e
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png);"></div><div
+        class="c-text"><div class="c-title">Catalog Subset PDFs</div><div
+        class="c-short-description">Auto-labeled, then confirmed/edited,
+        documents to meet the minimum training and testing counts</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">PDF File</div></div></div></div></div>'
+    id: PDF FileX6pApn6Xny
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PDF File
+        shortDescription: Auto-labeled, then confirmed/edited, documents to meet the
+          minimum training and testing counts
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PDF File
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PDF File
+      editableName: Catalog Subset PDFs
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: PDF File
+      category: 3
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF__044448_v2_supg5y.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png
+      color: "#4e3391"
+      controlText: PDF File
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: false
+    width: 387
+    height: 100
+    offsetX: 92.5
+    offsetY: -153.5
+    zIndex: 14
+    outEdges:
+      - Straight ConnectorCmMNl
+  - shape:
+      type: Path
+    id: TextC1VwsXInvv
+    width: 50
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: C8FwS
+        content: JSON Format
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+    offsetX: 756
+    offsetY: 102.5
+    zIndex: 16
+  - shape:
+      type: HTML
+      content: >
+        
+        <div class="number-annotation" style="font-size: 0">
+
+        <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M39,20 A19,19 0 1,1 1,20 A19,19 0 1,1 39,20" fill="none" stroke="#2A2A2A" stroke-width="2"></path>
+          <text x="20" y="20" font-family="montserrat, sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2A2A2A">1</text>
+        </svg>
+
+        </div>
+    id: NumberBxQ1F
+    width: 40
+    height: 40
+    offsetX: 748
+    offsetY: 212.75
+    constraints: 4196334
+    previewSize:
+      width: 40
+      height: 40
+    margin:
+      top: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: L855V
+        content: "1"
+        offset:
+          x: 0.58
+          y: 0.55
+        style:
+          fill: none
+          fontSize: 21
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+    zIndex: 17
+  - shape:
+      type: Path
+    id: TextVdTcr
+    width: 262.00000000000006
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: C8FwS
+        content: Cloud Strorage and MongoDB Sources
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+      size: sm
+    offsetX: 901
+    offsetY: 212.75
+    zIndex: 18
+  - shape:
+      type: HTML
+      content: >
+        
+        <div class="number-annotation" style="font-size: 0">
+
+        <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M39,20 A19,19 0 1,1 1,20 A19,19 0 1,1 39,20" fill="none" stroke="#2A2A2A" stroke-width="2"></path>
+          <text x="20" y="20" font-family="montserrat, sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2A2A2A">1</text>
+        </svg>
+
+        </div>
+    id: NumberBxQ1FkZRBO
+    width: 40
+    height: 40
+    offsetX: 748
+    offsetY: 242.75
+    constraints: 4196334
+    previewSize:
+      width: 40
+      height: 40
+    margin:
+      top: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: L855V
+        content: "2"
+        offset:
+          x: 0.58
+          y: 0.55
+        style:
+          fill: none
+          fontSize: 21
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+    zIndex: 19
+  - shape:
+      type: Path
+    id: TextVdTcrhTty3
+    width: 194
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: C8FwS
+        content: JSON Parser Transformation
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+      size: sm
+    offsetX: 867
+    offsetY: 242.75
+    zIndex: 20
+  - shape:
+      type: HTML
+      content: >
+        
+        <div class="number-annotation" style="font-size: 0">
+
+        <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M39,20 A19,19 0 1,1 1,20 A19,19 0 1,1 39,20" fill="none" stroke="#2A2A2A" stroke-width="2"></path>
+          <text x="20" y="20" font-family="montserrat, sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2A2A2A">1</text>
+        </svg>
+
+        </div>
+    id: NumberBxQ1FkZRBOUJTZA
+    width: 40
+    height: 40
+    offsetX: 748
+    offsetY: 272.75
+    constraints: 4196334
+    previewSize:
+      width: 40
+      height: 40
+    margin:
+      top: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: L855V
+        content: "3"
+        offset:
+          x: 0.58
+          y: 0.55
+        style:
+          fill: none
+          fontSize: 21
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+    zIndex: 21
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png);"></div><div
+        class="c-text"><div class="c-title">BigQuery Dataset</div><div
+        class="c-short-description">Analyzing massive datasets in real-time
+        using SQL-like queries</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: BigQueryyTJyg
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: BigQuery
+        shortDescription: Analyzing massive datasets in real-time using SQL-like queries
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: BigQuery
+      status: N/A
+      size: sm
+      nodeType: html
+      title: BigQuery
+      editableName: BigQuery Dataset
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: BigQuery
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery__044448_tx0mzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png
+      color: "#3871e0"
+      controlText: BigQuery
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 788
+    offsetY: 365
+    zIndex: 22
+    inEdges:
+      - Straight ConnectoripfG4
+  - shape:
+      type: Path
+    id: TextVdTcrhTty3yUqr3
+    width: 245
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: C8FwS
+        content: BigQuery Execution Action and Sink
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+      size: sm
+    offsetX: 890.5
+    offsetY: 272.75
+    zIndex: 24
+selectedItems:
+  width: 0
+  height: 0
